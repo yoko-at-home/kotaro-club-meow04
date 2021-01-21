@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#d1c219" />
+  <meta name="description" content="javascriptでFAQに開閉機能をつけました。" />
+  <link rel="apple-touch-icon" href="img/logo192.png" />
+  <meta property="og:title" content="FAQ (JavaScript+Neumorphism)" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@yokoiwasaki6" />
+  <meta name="twitter:creator" content="@yokoiwasaki6" />
+  <meta property="og:url" content="https://kotaro-club-meow04.netlify.app/" />
+  <meta property="og:description" content="javascriptでFAQに開閉機能をつけました。" />
+  <meta property="og:image" content="https://kotaro-club-meow04.netlify.app/img/thumbnail.jpg" />
+  <meta property="twitter:image" content="https://kotaro-club-meow04.netlify.app/img/thumbnail.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  <title>FAQ</title>
+</head>
+<body>
+  <h1>猫ちゃんについてよくある質問（住宅編）</h1>
+
+  <div class="faq-container">
+    <div class="faq active">
+      <h3 class="faq-title">
+        脱走防止で気を付ける事を教えて下さい
+      </h3>
+      <p class="faq-text">
+        猫は驚く程狭い隙間を通り抜け、高い壁を登ります。猫の性格にもよりますが、網戸を破いてしまったり扉を開ける猫もいますので、万一の脱走が無い様に十分な対策を考えておいて下さい。ドアからの脱走防止は、玄関に直結した部屋で留守番させないのが一番の対策ですが、出来ない時はドアの前に簡単な柵を置き、すぐに飛び出るのを防止するなどの方法もあります。
+      </p>
+        <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+        </button>
+
+    </div>
+      <div class="faq">
+      <h3 class="faq-title">
+        安全な環境とは？
+      </h3>
+      <p class="faq-text">
+        猫の性質をよく理解し、家庭内での事故が起きない様に安全な環境をご用意下さい。家庭内での事故の一例は、高所からの落下事故、オモチャ、紐状の物の誤飲などがあります。
+      </p>
+        <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+      <div class="faq">
+      <h3 class="faq-title">
+        温度管理は必要でしょうか？
+      </h3>
+      <p class="faq-text">
+        子猫のうちは室温は27度くらいが理想的です。冬場はエアコンによる温度管理の他、電気アンカやホットカーペット※などを使用し、暖かい寝場所などを用意してあげるとよいでしょう。<br/>
+        ※設定温度が高いホットカーペットは、長時間使用すると低温やけどをすることがあるため注意が必要です。
+        <ul class="faq-ul">
+          <li>夏場は熱中症に十分気を付けて下さい。30度を超えると猫は熱中症になります。</li>
+          <li>しかし冷房にも注意が必要です。人間が丁度良いと思う温度は猫にとっては寒すぎます。</li>
+          <li>エアコンの設定温度を高めにし、猫ベット等に毛布などを入れると良いでしょう。</li>
+          <li>どの季節も、寒くなり過ぎたり暑くなり過ぎた時の逃げ場がある様にして下さい。</li>
+        </ul>
+      </p>
+        <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+        </button>
+
+    </div>
+      <div class="faq">
+      <h3 class="faq-title">
+        トイレはいくつ必要でしょうか？
+      </h3>
+      <p class="faq-text">
+       理想は頭数＋1台です。兄弟猫を2頭飼育する時は、子猫のうちは1台、成長したら2台または3台あるといいでしょう。トイレは毎日掃除し、清潔にしてください
+      </p>
+        <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+
+    <a href="https://tokyocatguardian.org/faq/kurashi/">🐈 東京キャットガーディアン</a>
+  </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
